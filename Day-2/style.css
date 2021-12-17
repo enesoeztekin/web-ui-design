@@ -30,6 +30,7 @@ body {
   color: #9ab7ef;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 .component .component--container {
