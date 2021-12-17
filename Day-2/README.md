@@ -1,10 +1,13 @@
 # Search UI
-Search UI for cryptocurrencies in dark mode is my second day's project of my 'Every day, new UI design' journey. You can use this UI by changing its texts and implementing into your project.  
+
+Search UI for cryptocurrencies in dark mode is my second day's project of my 'Every day, new UI design' journey. You can use this UI by changing its texts and implementing into your project.
 
 ### Use in your project easily!
+
 All you need to do:
 
-1) Copy this code and paste it into the place you want to use in your HTML file. 
+1. Copy this code and paste it into the place you want to use in your HTML file.
+
 ```
 <!-- Component -->
     <div class="component">
@@ -32,7 +35,8 @@ All you need to do:
     </div>
 <!-- Component -->
 ```
-2) Copy the CSS code, and paste it in your CSS file connected to the HTML part.
+
+2. Copy the CSS code, and paste it in your CSS file connected to the HTML part.
 
 ```
 .component {
@@ -124,14 +128,17 @@ All you need to do:
   }
 }
 ```
+
 Then, edit the parts you want to change such as 'Tags', primary-title, secondary-title, etc.
 
-3) Add those code below into your HTML file. (To right before ```</body>``` tag.)  
+3. Add those code below into your HTML file. (To right before `</body>` tag.)
 
 ```
 <script>
-  const tags = document.querySelectorAll(".tags .tag");
+  //Don't forget to change selectors' expressions such as ".tags .tag", if you want to change class names in your DOM.
+  const tags = [...document.querySelectorAll(".tags .tag")];
   let selectedTag = document.querySelector(".tag.selected");
+  const searchInput = document.querySelector(".search-bar input");
 
   tags.forEach((tag) => {
     tag.addEventListener("click", () => {
@@ -140,19 +147,33 @@ Then, edit the parts you want to change such as 'Tags', primary-title, secondary
       selectedTag = tag;
     });
   });
+
+  searchInput.addEventListener("input", getTag);
+
+  function getTag() {
+    tags.filter((tag) => {
+      tag.textContent.includes(searchInput.value)
+        ? ((tag = tag), (tag.style.display = "block"))
+        : (tag.style.display = "none");
+    });
+  }
 </script>
 ```
-I've used JS to make the tags switchable when clicked. For example: 
+
+I've used JS to make the tags switchable when clicked. For example:
 
 ![alt text](https://github.com/enesoeztekin/web-ui-design/blob/main/Day-2/Design/Day-2-Switchable-Tags.gif)
 
+Also, used JS to list the tags contains user's input. As you can see in the below:
+
+![alt text](https://github.com/enesoeztekin/web-ui-design/blob/main/Day-2/Design/Day-2-Listing-Tags.gif)
 
 <strong>Preview (Mobile): </strong>
 
-![alt text](https://github.com/enesoeztekin/web-ui-design/blob/main/Day-2/Design/Day-2-Cryptocurrencies-Search-UI-Desktop.png)
+![alt text](https://github.com/enesoeztekin/web-ui-design/blob/main/Day-2/Design/Day-2-Cryptocurrencies-Search-UI-Mobile.png)
 
 <strong>Preview (Desktop): </strong>
 
-![alt text](https://github.com/enesoeztekin/web-ui-design/blob/main/Day-2/Design/Day-2-Cryptocurrencies-Search-UI-Mobile.png)
+![alt text](https://github.com/enesoeztekin/web-ui-design/blob/main/Day-2/Design/Day-2-Cryptocurrencies-Search-UI-Desktop.png)
 
 If you like this simple UI, please leave a star to my repo.
