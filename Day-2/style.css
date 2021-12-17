@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #161c27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+
+.component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1017px;
+  height: 562px;
+  max-width: 1017px;
+  max-height: 562px;
+  border: #242c3d solid 15px;
+  border-radius: 30px;
+  background-color: #111620;
+  color: #9ab7ef;
+}
+
+.component .component--container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 10%;
+  width: 100%;
+}
+
+.component .primary-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.component .search-bar {
+  position: relative;
+  width: 100%;
+}
+
+.component .search-bar input {
+  width: 100%;
+  background-color: #161c27;
+  color: #9ab7ef;
+  border: 1px solid #5083e0;
+  padding: 25px 25px 25px 80px;
+  outline: 0px;
+  font-size: 16px;
+}
+
+.component .search-bar input::placeholder {
+  color: #7a90bb;
+}
+
+.component img {
+  display: inline-block;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+
+.component .tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.component .tags .tag {
+  background-color: #142037;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.component .tag.selected {
+  background-color: #92b6ff;
+  color: #111620;
+}
