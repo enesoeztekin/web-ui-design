@@ -14,7 +14,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: "Raleway", sans-serif;
 }
 
 .component {
@@ -29,6 +28,8 @@ body {
   border-radius: 30px;
   background-color: #111620;
   color: #9ab7ef;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
 
 .component .component--container {
@@ -40,7 +41,7 @@ body {
 }
 
 .component .primary-title {
-  font-size: 26px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -88,4 +89,17 @@ body {
 .component .tag.selected {
   background-color: #92b6ff;
   color: #111620;
+}
+
+@media (max-width: 500px) {
+  .component {
+    border: 3px solid #242c3d;
+    font-size: 80%;
+  }
+  .component .component--container {
+    padding: 0 3%;
+  }
+  .component .search-bar input {
+    font-size: 0.75rem;
+  }
 }
