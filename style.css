@@ -46,6 +46,10 @@ header {
   position: relative;
 }
 
+.heading span {
+  font-weight: lighter;
+}
+
 .heading::before,
 .heading::after {
   content: "";
