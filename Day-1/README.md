@@ -1,10 +1,15 @@
 # User Profile UI
+
 This is the first day's project of my 'every day, a new web ui design' journey.
 
+Demo -> https://enesoeztekin.github.io/web-ui-design/Day-1
+
 ### Use in your project easily!
+
 All you need to do:
 
-1) Copy this code and paste it into the place you want to use in your HTML file. 
+1. Copy this code and paste it into the place you want to use in your HTML file.
+
 ```
 <div class="component">
         <div class="profile-img">
@@ -20,7 +25,8 @@ All you need to do:
         </div>
 </div>
 ```
-2) Copy the CSS code, and paste it in your CSS file connected to the HTML part.
+
+2. Copy the CSS code, and paste it in your CSS file connected to the HTML part.
 
 ```
 .component {
@@ -133,6 +139,7 @@ All you need to do:
   left: 20px;
 }
 ```
+
 Then, edit the parts you want to change such as 'Profile Image', fullname, title, etc.
 
 <strong>Preview (Mobile): </strong>

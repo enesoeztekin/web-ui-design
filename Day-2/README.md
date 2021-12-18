@@ -2,6 +2,8 @@
 
 Search UI for cryptocurrencies in dark mode is my second day's project of my 'Every day, new UI design' journey. You can use this UI by changing its texts and implementing into your project.
 
+Demo -> https://enesoeztekin.github.io/web-ui-design/Day-2
+
 ### Use in your project easily!
 
 All you need to do:
