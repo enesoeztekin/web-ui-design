@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 3 - Event Card UI</title>
+</head>
+
+<body>
+    <div class="component">
+        <div class="component__background">
+            <div class="card">
+                <div class="top">
+                    <h4 class="event-date">Wed, May 25, 2022 ・8:00 GMT</h4>
+                    <h2 class="event-name">Hitchhiker's <span>Towel Day</span></h2>
+                    <h3 class="event-location">London</h3>
+                </div>
+                <div class="bottom">
+                    <div class="attendees-detail">
+                        <img src="./img/attendee-1.svg" alt="Attendee 1">
+                        <img src="./img/attendee-2.svg" alt="Attendee 2">
+                        <img src="./img/attendee-3.svg" alt="Attendee 3">
+                        <p class="count">+1,3k</p>
+                    </div>
+                    <button class="btn btn-attend">I'm Attending</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        const button = document.querySelector(".btn");
+
+        //To switch "Attended" and "I'm Attending" buttons, when they clicked.
+        button.addEventListener("click", () => {
+            if (button.classList.contains("btn-attended")) {
+                button.classList.remove("btn-attended");
+                button.classList.add("btn-attend");
+                button.innerHTML = "I'm Attending";
+            } else {
+                button.classList.remove("btn-attend");
+                button.classList.add("btn-attended");
+                button.innerHTML = "Attended";
+            }
+        });
+    </script>
+</body>
+
+</html>
