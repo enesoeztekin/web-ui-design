@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback UI</title>
+</head>
+
+<body>
+    <!-- Feedback UI Component -->
+    <div class="component">
+        <h3>What do you think of this Feedback UI?</h3>
+        <div class="actions">
+            <div class="btn btn-like"
+                onclick="this.classList.toggle('pressed'), document.querySelector('.btn-dislike').classList.remove('pressed')">
+            </div>
+            <div class="btn btn-dislike"
+                onclick="this.classList.toggle('pressed'), document.querySelector('.btn-like').classList.remove('pressed')">
+            </div>
+        </div>
+    </div>
+    <!-- Feedback UI Component -->
+</body>
+
+</html>
