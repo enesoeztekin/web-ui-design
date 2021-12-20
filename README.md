@@ -4,7 +4,7 @@ In this repo, I'll be sharing web UI designs I design. My goal is to share at le
 
 Github Pages -> https://enesoeztekin.github.io/web-ui-design/
 
-<strong> Current Day: </strong> `4`
+<strong> Current Day: </strong> `5`
 
 ## So far:
 
@@ -31,3 +31,9 @@ Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-3
 Demo -> https://enesoeztekin.github.io/web-ui-design/Day-4
 
 Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-4
+
+### Day 5 - Notifications UI
+
+Demo -> https://enesoeztekin.github.io/web-ui-design/Day-5
+
+Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-5
