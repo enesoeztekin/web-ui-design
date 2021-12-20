@@ -94,12 +94,16 @@ header {
 }
 
 .card .ui-details {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 .ui-details h4 {
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
+}
+
+.ui-details p {
+  font-weight: 300;
 }
 
 .btn {
