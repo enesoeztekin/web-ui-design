@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 5 - Notifications UI</title>
+</head>
+
+<body>
+    <!-- Notifications UI Component -->
+    <div class="component">
+        <div class="notification-icon" onclick="document.querySelector('.main').classList.toggle('visible')"></div>
+        <div class="main">
+            <h1>Notifications</h1>
+            <div class="row">
+                <div class="col-2">
+                    <img class="avatar" src="./img/user1.jpg" alt="User 1">
+                </div>
+                <div class="col-10">
+                    <div class="title"><span>Enes Öztekin</span> has sent you a friendship request.</div>
+                    <div class="time-ago">An hour ago</div>
+                    <div class="buttons">
+                        <button class="btn btn-decline">Decline</button>
+                        <button class="btn btn-accept">Accept</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-2">
+                    <img class="avatar" src="./img/user2.jpg" alt="User 2">
+                </div>
+                <div class="col-10">
+                    <div class="title"><span>Sherry Martinez</span> made you an editor in the team.</div>
+                    <div class="time-ago">Yesterday</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Notifications UI Component -->
+</body>
+
+</html>
