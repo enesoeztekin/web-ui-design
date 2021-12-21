@@ -50,7 +50,7 @@ body {
   width: 27px;
   height: 27px;
   background-color: rgba(0, 0, 0, 0.3);
-  background-image: url(/img/expand.svg);
+  background-image: url(img/expand.svg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
