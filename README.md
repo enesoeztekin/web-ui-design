@@ -4,7 +4,7 @@ In this repo, I'll be sharing web UI designs I design. My goal is to share at le
 
 Github Pages -> https://enesoeztekin.github.io/web-ui-design/
 
-<strong> Current Day: </strong> `5`
+<strong> Current Day: </strong> `6`
 
 ## So far:
 
@@ -37,3 +37,9 @@ Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-4
 Demo -> https://enesoeztekin.github.io/web-ui-design/Day-5
 
 Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-5
+
+### Day 6 - Spotify Lyrics Card UI
+
+Demo -> https://enesoeztekin.github.io/web-ui-design/Day-6
+
+Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-6
