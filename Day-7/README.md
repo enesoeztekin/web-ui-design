@@ -5,6 +5,10 @@ This is the Cookies and Privacy UI, which is the 7th day's project of my journey
 
 Demo -> https://enesoeztekin.github.io/web-ui-design/Day-6
 
+How it looks:
+
+![alt text](https://github.com/enesoeztekin/web-ui-design/blob/main/Day-7/Design/Day-7-Cookies-and-Privacy-UI-Preview.gif)
+
 ### Use in your project easily!
 
 All you need to do:
