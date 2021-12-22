@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day-7 | Cookies and Privacy UI</title>
+</head>
+
+<body>
+    <!-- Cookies and Privacy Component HTML -->
+    <div class="component">
+        <div class="close">&times;</div>
+        <img src="cookie.PNG" alt="">
+        <h2>Cookies & Privacy</h2>
+        <p>We're using cookies to ensure you to get the best experience.</p>
+        <div class="buttons">
+            <button class="btn btn-accept">Accept All Cookies</button>
+            <button class="btn btn-customize">Customize Settings</button>
+        </div>
+    </div>
+    <!-- Cookies and Privacy Component HTML -->
+
+    <!-- Component JS Code -->
+    <script>
+        const closeButton = document.querySelector(".close");
+        const acceptButton = document.querySelector(".btn-accept");
+        const component = document.querySelector(".component");
+
+        closeButton.addEventListener("click", () => {
+            component.classList.add("disable");
+        });
+
+        acceptButton.addEventListener("click", () => {
+            component.classList.add("accepted");
+        });
+    </script>
+    <!-- Component JS Code -->
+</body>
+
+</html>
