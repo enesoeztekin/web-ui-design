@@ -4,7 +4,7 @@ In this repo, I'll be sharing web UI designs I design. My goal is to share at le
 
 Github Pages -> https://enesoeztekin.github.io/web-ui-design/
 
-<strong> Current Day: </strong> `6`
+<strong> Current Day: </strong> `7`
 
 ## So far:
 
@@ -43,3 +43,9 @@ Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-5
 Demo -> https://enesoeztekin.github.io/web-ui-design/Day-6
 
 Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-6
+
+### Day 7 - Cookies and Privacy Modal UI
+
+Demo -> https://enesoeztekin.github.io/web-ui-design/Day-7
+
+Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-7
