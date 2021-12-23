@@ -14,16 +14,18 @@ All you need to do:
 ```
 <!-- Session Expired Modal Component -->
     <div class="component">
-        <img src="whistle.png" alt="Whistle">
-        <h2>Your session has expired.</h2>
-        <p>Enter your password to pick up where you left off.</p>
-        <label for="password">Password</label>
         <div>
-            <input type="text" name="text" placeholder="Enter your password here">
-            <button class="btn-resume">Resume</button>
+            <img src="whistle.png" alt="Whistle">
+            <h2>Your session has expired.</h2>
+            <p>Enter your password to pick up where you left off.</p>
+            <label for="password">Password</label>
+            <div>
+                <input type="text" name="text" placeholder="Enter your password here">
+                <button class="btn-resume">Resume</button>
+            </div>
         </div>
     </div>
-<!-- Session Expired Modal Component -->
+    <!-- Session Expired Modal Component -->
 ```
 
 2. Copy the CSS code, and paste it in your CSS file connected to the HTML part.
