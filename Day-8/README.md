@@ -5,10 +5,6 @@ This is Session Expired Modal UI, which is the 8th day's project of my journey.
 
 Demo -> https://enesoeztekin.github.io/web-ui-design/Day-8
 
-How it looks:
-
-![alt text](https://github.com/enesoeztekin/web-ui-design/blob/main/Day-5/Design/Day-5-Notification-UI-Preview.gif)
-
 ### Use in your project easily!
 
 All you need to do:
