@@ -14,6 +14,7 @@ All you need to do:
 ```
 <!-- Session Expired Modal Component -->
     <div class="component">
+        <div class="close" onclick="document.querySelector('.component').classList.add('zoom-out')">&times;</div>
         <div>
             <img src="whistle.png" alt="Whistle">
             <h2>Your session has expired.</h2>
@@ -25,7 +26,7 @@ All you need to do:
             </div>
         </div>
     </div>
-    <!-- Session Expired Modal Component -->
+<!-- Session Expired Modal Component -->
 ```
 
 2. Copy the CSS code, and paste it in your CSS file connected to the HTML part.
@@ -39,6 +40,45 @@ All you need to do:
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  transform: scale(0);
+  animation: zoom-in 800ms ease-in-out forwards;
+}
+
+.component .close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 251, 251);
+  border-radius: 50%;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.zoom-out {
+  animation: zoom-out 800ms ease-in-out forwards;
+}
+
+@keyframes zoom-in {
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
 }
 
 .component img {
@@ -58,7 +98,7 @@ All you need to do:
 }
 
 .component input {
-  border: 1px solid aliceblue;
+  border: 1px solid rgb(215, 236, 255);
   padding: 1rem;
   background-color: azure;
   border-radius: 5px;
@@ -74,6 +114,7 @@ All you need to do:
   padding: 1rem 3rem;
   border-radius: 5px;
   cursor: pointer;
+  margin-left: 0.5rem;
 }
 
 .component .btn-resume:hover {
