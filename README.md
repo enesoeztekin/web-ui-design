@@ -55,3 +55,9 @@ Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-7
 Demo -> https://enesoeztekin.github.io/web-ui-design/Day-8
 
 Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-8
+
+### Day 9 - New Message UI
+
+Demo -> https://enesoeztekin.github.io/web-ui-design/Day-9
+
+Repository -> https://github.com/enesoeztekin/web-ui-design/tree/main/Day-9
